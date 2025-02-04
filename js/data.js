@@ -95,4 +95,37 @@ let advantages = [
     },
 ]
 
+let footer = {
+    overtext: "Easy camper",
+    headline: "When passion meets comfort.",
+    menulists: [
+        {
+       
+            listtitle: "discover the network",
+         underlist: "Where to shop",
+         underlist: "Tour guided",
+         underlist: "Our tours",
+         underlist: "About us"
+        },
+        {
+           
+            listtitle: "Become a Manager",
+            underlist: "Join your pairing",
+            underlist: "Offer your services",
+            underlist: "Are you are guide?"
+        },
+        {
+         
+            listtitle: "Assistance",
+            underlist: "Support center",
+         underlist: "FAQs",
+         underlist: "Cancallations Options",
+         underlist: "Reliablity and Sequrity"
+        },
+    ]
+
+}
+
+    
+
 // Opret dit dataobjekt til footerens indhold herunder

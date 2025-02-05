@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myclass{
+ 
+
+}
+
+.myclass img{
+
+    width: 100%;
+}
+
+.services-class{
+
+    display: flex;
+padding-block: 10rem;
+    width: auto;
+
+ 
+}
+.services-class img{
+margin-block: 2rem;
+    
+    }
+
+
+.services-class h2{
+width: 80%;
+text-align: left;
+font-size: 1.8rem;
+
+}
+.services-class p{
+    width: 70%;
+    text-align: left;
+    
+    }
+
+
+.services-class a{
+    color: rgb(255, 68, 0);
+    font-size: 1.4rem;
+}
+
+.headlineElm-class{
+
+    font-size: 2.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.facility-class{
+
+    display: flex;
+
+}
+
+
+.sitesElm-class{
+    padding-block: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.sitesElm-class img{
+
+    height: 75%;
+ grid-column: 1/1;
+ 
+}
+
+.sitesElm-class h1{
+  
+    font-size: 2.5rem;
+
+    }
+    .sitesElm-class p{
+  
+        color: rgb(112, 112, 112);
+    
+        }
+
+.sitesElm-class h1, p{
+grid-column: 1;
+width: 10rem;
+margin-left: 4rem;
+
+}
+
+.advantage-class{
+
+    display: flex;
+    padding-block: 5rem;
+    justify-content: space-evenly;
+}
+
+
+.advantage-class p{
+    color: rgb(112, 112, 112);
+width: 17rem;
+margin-block: 1rem;
+}
+
+.footer-class{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #F7F7F7;
+}
+
+.footer-class h2, h1{
+
+    grid-column: 1;
+}
+

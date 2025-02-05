@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myclass{
+ 
+
+}
+
+.myclass img{
+
+    width: 100%;
+}
+
+.services-class{
+
+    display: flex;
+
+    width: auto;
+}
+
+.services-class h2, p{
+width: 50%;
+text-align: center;
+
+}
+
+.headlineElm-class{
+
+    font-size: 2.8rem;
+    display: flex;
+    flex-direction: column;
+}

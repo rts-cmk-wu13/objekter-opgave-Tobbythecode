@@ -13,7 +13,7 @@ divElm.innerHTML = `
 <div>
     <h1>${hero.headline}</h1>
     <p>${hero.copy}</p>
-    <img src="${hero.icon}" alt="">
+  <button> <img src="${hero.icon}" alt=""></button> 
 </div>
 `
 
@@ -27,10 +27,12 @@ services.forEach(service => {
     let serviceDiv = document.createElement("div")
     ServicesElm.classList.add("services-class")
 serviceDiv.innerHTML = `
+<article>
 <img src="${service.illustration}" alt="">
 <h2>${ service.headline}</h2>
 <p>${service.text}</p>
 <a href="#">${service.linktext}</a>
+</article>
 `
 ServicesElm.append(serviceDiv)
 
@@ -44,15 +46,18 @@ let headlineElm = document.createElement("h1")
 headlineElm.textContent = facilities.headline
 facilitiesElm.append(headlineElm)
 facilities.options.forEach(option => {
+    
      let facilityDiv = document.createElement("div")
      headlineElm.classList.add("headlineElm-class")
      facilitiesElm.classList.add("facility-class")
+   
 facilityDiv.innerHTML = `
 
-
+<article>
 <img src="${option.icon}" alt="">
 <h3>${option.headline}</h3>
 <p>${option.text}</p>
+</article>
 `
 facilitiesElm.append(facilityDiv)
 }) 
@@ -69,6 +74,7 @@ btnElm.textContent = sites.btnicon
 sitesElm.append(headlineElm2)
 sitesElm.append(textElm)
 sitesElm.append(btnElm)
+sitesElm.classList.add("sitesElm-class")
 sites.places.forEach(place => {
     let sitesDiv = document.createElement("div")
     sitesDiv.innerHTML = `
@@ -85,6 +91,7 @@ sites.places.forEach(place => {
 let advantagesElm = document.querySelector(".advantages");
 advantages.forEach(advantage => {
     let advantageDiv = document.createElement("div")
+    advantagesElm.classList.add("advantage-class")
     advantageDiv.innerHTML = `
 <img src="${advantage.icon}" alt="">
 <h2>${advantage.headline}</h2>
@@ -104,6 +111,7 @@ footerElm.append(overtextElm)
 footerElm.append(headlineElm3)
 footer.menulists.forEach(list => {
     let footerDiv = document.createElement("div")
+    footerElm.classList.add("footer-class")
     footerDiv.innerHTML = `
   <h3>${list.listtitle}</h3>
   <p>${list.underlist}</p>
